@@ -34,6 +34,7 @@ public class Insights_lib {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			node = mapper.readTree(json.toString());
+			//
 		} catch (IOException e) {
 			// TODO 自動生成された catch ブロック
 			e.printStackTrace();
